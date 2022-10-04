@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Open_Lab_03._06
 {
@@ -6,7 +6,15 @@ namespace Open_Lab_03._06
     {
         public bool HasSpaces(string str)
         {
-            throw new NotImplementedException();
+            char s = ' ';
+            if (str.Contains(s))
+            {
+                return true;
+            }    
+            else
+            {
+                return false;
+            }
         }
     }
 }
